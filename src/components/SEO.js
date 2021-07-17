@@ -84,18 +84,11 @@ function SEO({ meta, title, description, lang, thumbnail, openGraph, twitterCard
 	const _schemaMarkup = schemaMarkup ? schemaMarkup : {
 		'@context': `https://schema.org`,
 		'@type': `Organization`,
-		name: `PixelsMatter`,
-		alternateName: `PM`,
-		description: `Gatsby Starter`,
-		url: `https://pixelsmatter.io`,
+		name: `Transform My Business`,
+		alternateName: `TMB`,
+		description: `How you can make more revenue online without wasting time or burning cash`,
+		url: `https://transformmybusiness.co.uk`,
 		logo: `${siteUrl}${_logo}`,
-		sameAs: [
-			`https://facebook.com/pixelsmatter`,
-			`https://twitter.com/pixelsmatter`,
-			`https://linkedin.com/company/pixelsmatter`,
-			`https://instagram.com/pixelsmatter`,
-			`https://github.com/pixelsmatter`,
-		],
 	}
 
 	return (

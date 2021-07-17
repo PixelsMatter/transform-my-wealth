@@ -1,25 +1,25 @@
 
 module.exports = {
 	siteMetadata: {
-		title: `PixelsMatter`,
+		title: `Transform My Business`,
 		description: `Gatsby starter`,
-		siteUrl: `https://pixelsmatter.io`,
+		siteUrl: `https://transformybusiness.co.uk`,
 		humansTxt: `humans.txt`,
 		openGraph: {
 			type: `website`,
-			title: `PixelsMatter`,
-			description: `Gatsby starter`,
-			siteName: `PixelsMatter`,
-			url: `https://pixelsmatter.io`,
+			title: `Transform My Business`,
+			description: `How you can make more revenue online without wasting time or burning cash`,
+			siteName: `Transform My Business`,
+			url: `https://transformybusiness.co.uk`,
 		},
 		twitterCard: {
 			card: `summary_large_image`,
-			title: `PixelsMatter`,
-			description: `Gatsby starter`,
-			creator: `@pixelsmatter`,
-			site: `@pixelsmatter`,
-			domain: `pixelsmatter.op`,
-			url: `https://pixelsmatter.io`,
+			title: `Transform My Business`,
+			description: `How you can make more revenue online without wasting time or burning cash`,
+			creator: '',
+			site: '',
+			domain: `transformybusiness.co.uk`,
+			url: `https://transformybusiness.co.uk`,
 		},
 	},
 	plugins: [
@@ -38,8 +38,8 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: `PixelsMatter`,
-				short_name: `PixelsMatter`,
+				name: `Transform My Business`,
+				short_name: `TMB`,
 				start_url: `/`,
 				background_color: `#0E0417`,
 				theme_color: `#0E0417`,

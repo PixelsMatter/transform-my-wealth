@@ -10,7 +10,7 @@ import Logo from '../components/Logo'
 
 const IndexPage = () => (
 	<Layout>
-		<SEO title='PixelsMatter | Gatsby Starter'/>
+		<SEO title='Transform My Business | Video Masterclass'/>
 		<Container>
 			<Logo/>
 			<p>This is a fresh instance of the PixelsMatter Gatsby starter which includes Preact, SCSS using a variant
