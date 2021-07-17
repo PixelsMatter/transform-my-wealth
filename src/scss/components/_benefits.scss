@@ -1,0 +1,41 @@
+
+.benefits {
+	&__heading {
+		text-align: center;
+	}
+
+	&__list-item {
+		margin-bottom: calc-rem(20px);
+
+		&::before {
+			@include pseudo(inline-block, initial, '');
+			background-image: url('../img/icons/tick.svg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: contain;
+			height: calc-rem(15px);
+			margin-right: calc-rem(10px);
+			width: calc-rem(15px);
+		}
+	}
+
+	@include md {
+		&__list {
+			@include flex-container(row, center, center);
+			flex-wrap: wrap;
+		}
+
+		&__list-item {
+			width: 50%;
+
+			&::before {
+				height: calc-rem(20px);
+				width: calc-rem(20px);
+			}
+		}
+
+		&__para {
+			text-align: center;
+		}
+	}
+}

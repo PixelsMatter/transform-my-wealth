@@ -1,10 +1,18 @@
 
-::selection {
-	color: color('white');
-}
-
 body {
 	position: relative;
+}
+
+section {
+	padding: calc-rem(40px) 0;
+
+	@include sm {
+		padding: calc-rem(50px) 0;
+	}
+
+	@include md {
+		padding: calc-rem(80px) 0;
+	}
 }
 
 a:focus,
