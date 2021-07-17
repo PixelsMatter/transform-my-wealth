@@ -1,26 +1,10 @@
 
 ::selection {
 	color: color('white');
-	background: color('purple');
-}
-
-html {
-	height: 100%;
 }
 
 body {
-	@include flex-container(column, center, center);
-	background: color('cod-grey');
-	min-height: 100%;
 	position: relative;
-}
-
-main {
-	padding: calc-rem(50px) 0 calc-rem(90px) 0;
-
-	@include sm {
-		padding: calc-rem(100px) 0 calc-rem(150px) 0;
-	}
 }
 
 a:focus,

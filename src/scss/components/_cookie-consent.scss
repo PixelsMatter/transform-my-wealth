@@ -1,7 +1,6 @@
 
 .cookie-consent {
 	align-items: center;
-	background: color('black');
 	display: flex;
 	justify-content: center;
 	left: 0;
@@ -27,7 +26,6 @@
 	}
 
 	&__accept {
-		border-bottom: calc-rem(2px) solid color('purple');
 		font-weight: 500;
 		line-height: 1;
 		padding: 0;
@@ -37,7 +35,6 @@
 
 		&:hover,
 		&:focus {
-			border-color: color('persian-rose');
 		}
 	}
 

@@ -1,0 +1,45 @@
+
+.intro {
+	background: color('torea-bay');
+	padding: calc-rem(30px) 0;
+
+	& > .container {
+		@include flex-container(row, space-between, center);
+		flex-wrap: wrap;
+	}
+
+	&__logo {
+		font-size: calc-rem(30px);
+		font-weight: 700;
+		margin-bottom: calc-rem(10px);
+	}
+
+	&__video {
+		margin-top: calc-rem(30px);
+		width: 100%;
+	}
+
+	@include sm {
+		padding: calc-rem(50px) 0;
+
+		&__logo {
+			font-size: calc-rem(35px);
+		}
+	}
+
+	@include md {
+		padding: calc-rem(100px) 0;
+
+		&__copy {
+			width: 50%;
+		}
+
+		&__logo {
+			font-size: calc-rem(40px);
+		}
+
+		&__video {
+			width: 50%;
+		}
+	}
+}
