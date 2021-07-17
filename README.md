@@ -1,4 +1,4 @@
 
-## PixelsMatter Gatsby Starter
+## Transform My Business
 
-Includes Preact, SCSS using a variant of 7-1 architecture, BEM, perfect Lighthouse scores, offline support, Google Analytics, sitemaps &amp; plenty more good stuff!
+Landing pages for Transform My Business which use the [PixelsMatter Gatsby Starter](https://github.com/PixelsMatter/gatsby-starter)
