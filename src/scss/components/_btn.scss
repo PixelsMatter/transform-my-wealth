@@ -1,11 +1,11 @@
 
 .btn {
 	@include flex-container(row, center, center);
-	background: color('sea-green');
+	background: color('amber');
 	border-radius: calc-rem(30px);
-	color: color('white');
+	color: color('torea-bay');
 	font-size: calc-rem(15px);
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: calc-rem(0.6px);
 	padding: calc-rem(15px) calc-rem(20px);
 	transition: transform 0.4s;
