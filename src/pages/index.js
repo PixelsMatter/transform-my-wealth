@@ -8,7 +8,7 @@ import SEO from '../components/SEO'
 import Intro from '../components/Intro'
 import Benefits from '../components/Benefits'
 import Presenter from '../components/Presenter'
-
+import Testimonials from '../components/Testimonials'
 
 const IndexPage = () => (
 	<Layout>
@@ -16,6 +16,7 @@ const IndexPage = () => (
 		<Intro/>
 		<Benefits/>
 		<Presenter/>
+		<Testimonials/>
 	</Layout>
 )
 

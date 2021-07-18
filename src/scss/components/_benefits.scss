@@ -17,11 +17,26 @@
 			margin-right: calc-rem(10px);
 			width: calc-rem(15px);
 		}
+
+		&__author {
+			display: block;
+			font-weight: 700;
+			margin-top: calc-rem(5px);
+		}
+
+		&--quote {
+			&::before {
+				display: block;
+				background-image: url('../img/icons/quote.svg');
+				width: calc-rem(30px);
+				height: calc-rem(30px);
+			}
+		}
 	}
 
 	@include md {
 		&__list {
-			@include flex-container(row, center, center);
+			@include flex-container(row, center, flex-start);
 			flex-wrap: wrap;
 		}
 
@@ -31,6 +46,13 @@
 			&::before {
 				height: calc-rem(20px);
 				width: calc-rem(20px);
+			}
+
+			&--quote {
+				&::before {
+					width: calc-rem(40px);
+					height: calc-rem(40px);
+				}
 			}
 		}
 
