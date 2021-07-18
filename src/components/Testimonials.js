@@ -8,7 +8,7 @@ import Container from './Container'
 const Testimonials = () => (
 	<section className='benefits'>
 		<Container>
-			<h2 className='benefits__heading'>Testimonials</h2>
+			<h2 className='benefits__heading'>Here's Some Feedback From Nick's Recent Clients...</h2>
 			<ul className='benefits__list'>
 				<li className='benefits__list-item benefits__list-item--quote'>
 					Having Nick as a coach over the past few months has been immensely useful helping me move into a senior leadership role.  I’d have no hesitation recommending Nick as a coach if you get the chance to work with him.
@@ -23,6 +23,7 @@ const Testimonials = () => (
 					<strong className='benefits__list-item__author'>Mark Glanfield, Glanfield & Associates Wealth Management</strong>
 				</li>
 			</ul>
+			<p className='spaced'><strong>Click here to watch the video masterclass:</strong></p>
 			<button className='btn'>Show Me The Video</button>
 		</Container>
 	</section>

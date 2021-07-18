@@ -1,0 +1,12 @@
+
+.spaced {
+	margin-top: calc-rem(40px);
+
+	@include sm {
+		margin-top: calc-rem(50px);
+	}
+
+	@include md {
+		margin-top: calc-rem(60px);
+	}
+}

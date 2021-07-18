@@ -1,9 +1,9 @@
 
 .btn {
+	@include flex-container(row, center, center);
 	background: color('sea-green');
 	border-radius: calc-rem(30px);
 	color: color('white');
-	display: inline-block;
 	font-size: calc-rem(15px);
 	font-weight: 500;
 	letter-spacing: calc-rem(0.6px);
@@ -11,6 +11,17 @@
 	transition: transform 0.4s;
 	white-space: nowrap;
 	will-change: transform;
+
+	&::after {
+		@include pseudo(inline-block, initial, '');
+		background-image: url('../img/icons/video.svg');
+		background-position: right center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		height: 30px;
+		margin-left: calc-rem(10px);
+		width: 30px;
+	}
 
 	&:hover,
 	&:focus {

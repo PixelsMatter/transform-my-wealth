@@ -1,7 +1,10 @@
 
 .benefits {
-	&__heading {
-		text-align: center;
+	text-align: center;
+
+	& > .container {
+		@include flex-container(row, center, center);
+		flex-wrap: wrap;
 	}
 
 	&__list-item {
@@ -25,11 +28,18 @@
 		}
 
 		&--quote {
+			margin-bottom: calc-rem(30px);
+
 			&::before {
 				display: block;
 				background-image: url('../img/icons/quote.svg');
-				width: calc-rem(30px);
-				height: calc-rem(30px);
+				height: calc-rem(40px);
+				margin: 0 auto calc-rem(10px) auto;
+				width: calc-rem(40px);
+			}
+
+			&:last-child {
+				margin-bottom: 0;
 			}
 		}
 	}
@@ -41,6 +51,7 @@
 		}
 
 		&__list-item {
+			padding: 0 calc-rem(10px);
 			width: 50%;
 
 			&::before {

@@ -17,6 +17,8 @@ const Benefits = () => (
 			</ul>
 			<p className='benefits__para'><strong>And lots LOTS more!</strong></p>
 			<p className='benefits__para'>This is a unique chance to learn what really works online and get a huge shortcut in your business progress</p>
+			<p className='spaced'><strong>Click here to watch the video masterclass:</strong></p>
+			<button className='btn'>Show Me The Video</button>
 		</Container>
 	</section>
 )
