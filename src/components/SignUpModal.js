@@ -54,7 +54,7 @@ class SignUpModal extends React.Component {
 			if(response.result === 'success') {
 				this.setState({'success' : true})
 
-				return navigate('/video-content')
+				return navigate('/masterclass')
 			}
 			else {
 				this.setState({error: true})
@@ -85,7 +85,7 @@ class SignUpModal extends React.Component {
 									</button>
 
 									{this.state.error &&
-									<div className='error'>Error, please try again later.</div>
+										<div className='error'>Error, please try again later.</div>
 									}
 
 									<small className='sign-up-modal__disclaimer'>By entering your email you're consenting to
