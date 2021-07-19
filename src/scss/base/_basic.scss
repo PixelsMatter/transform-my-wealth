@@ -1,6 +1,7 @@
 
 body {
 	position: relative;
+	text-align: center;
 }
 
 section {
@@ -34,4 +35,8 @@ img {
 button {
 	border: 0;
 	cursor: pointer;
+}
+
+video {
+	width: 100%;
 }

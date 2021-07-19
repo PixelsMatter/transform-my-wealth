@@ -28,6 +28,12 @@
 		transform: scale(1.04);
 	}
 
+	&--no-icon {
+		&::after {
+			display: none;
+		}
+	}
+
 	@include sm {
 		font-size: calc-rem(16px);
 		padding: calc-rem(15px) calc-rem(30px);

@@ -9,6 +9,7 @@ import Intro from '../components/Intro'
 import Benefits from '../components/Benefits'
 import Presenter from '../components/Presenter'
 import Testimonials from '../components/Testimonials'
+import SignUpModal from '../components/SignUpModal'
 
 const IndexPage = () => (
 	<Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
 		<Benefits/>
 		<Presenter/>
 		<Testimonials/>
+		<SignUpModal/>
 	</Layout>
 )
 

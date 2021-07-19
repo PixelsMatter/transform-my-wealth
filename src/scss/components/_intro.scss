@@ -2,7 +2,6 @@
 .intro {
 	background: color('torea-bay');
 	color: color('white');
-	text-align: center;
 
 	& > .container {
 		@include flex-container(row, center, center);
@@ -16,7 +15,6 @@
 
 	&__video {
 		margin-top: calc-rem(30px);
-		width: 100%;
 	}
 
 	&__copy {

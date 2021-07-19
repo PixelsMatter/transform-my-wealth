@@ -1,0 +1,65 @@
+
+.sign-up-modal {
+	@include flex-container(row, center, center);
+	background: rgba(0, 0, 0, 0.7);
+	height: 100%;
+	left: 0;
+	padding: calc-rem(40px) 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	& > .container {
+		@include flex-container(row, center, center);
+	}
+
+	&__inner {
+		background: color('white');
+		padding: calc-rem(60px) calc-rem(40px) calc-rem(40px) calc-rem(40px);
+		position: relative;
+		width: 100%;
+	}
+
+	&__close {
+		@include pseudo(inline-block, absolute, '');
+		background-image: url('../img/icons/close.svg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		height: calc-rem(15px);
+		right: calc-rem(15px);
+		top: calc-rem(20px);
+		width: calc-rem(20px);
+	}
+
+	&__input {
+		border-radius: calc-rem(50px);
+		margin-bottom: calc-rem(20px);
+		padding: calc-rem(15px) calc-rem(20px);
+		width: 100%;
+
+		&:focus {
+			outline: none;
+		}
+	}
+
+	&__disclaimer {
+		color: color('dove-grey');
+		display: block;
+		font-size: calc-rem(12px);
+		line-height: 1.5;
+	}
+
+	&__submit {
+		margin: 0 auto calc-rem(20px) 0;
+	}
+
+	@include sm {
+		&__inner {
+			max-width: calc-rem(700px);
+		}
+	}
+
+	@include md {
+	}
+}

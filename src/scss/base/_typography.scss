@@ -45,6 +45,25 @@ h2 {
 	margin: 0 0 calc-rem(35px);
 }
 
+h3 {
+	font-size: calc-rem(15px);
+	font-weight: 700;
+	line-height: 1.4;
+	margin: 0 0 calc-rem(20px);
+
+	@include sm {
+		font-size: calc-rem(20px);
+	}
+
+	@include md {
+		font-size: calc-rem(25px);
+	}
+
+	@include lg {
+		font-size: calc-rem(28px);
+	}
+}
+
 p,
 li {
 	font-size: calc-rem(15px);

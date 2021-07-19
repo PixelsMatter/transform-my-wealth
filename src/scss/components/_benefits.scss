@@ -1,7 +1,5 @@
 
 .benefits {
-	text-align: center;
-
 	& > .container {
 		@include flex-container(row, center, center);
 		flex-wrap: wrap;
@@ -65,10 +63,6 @@
 					height: calc-rem(40px);
 				}
 			}
-		}
-
-		&__para {
-			text-align: center;
 		}
 	}
 }
