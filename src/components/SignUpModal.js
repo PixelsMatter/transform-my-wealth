@@ -14,7 +14,6 @@ export default function SignUpModal() {
 	const { toggle } = useContext(SignUpModalContext)
 	const [ loading, setLoading ] = useState(false)
 	const [ error, setError ] = useState(null)
-	const [ success, setSuccess ] = useState(false)
 
 	const toggleModal = () => {
 		toggle()
@@ -44,8 +43,6 @@ export default function SignUpModal() {
 			setLoading(false)
 
 			if(response.result === 'success') {
-				setSuccess(true)
-
 				toggleModal()
 
 				return navigate('/masterclass')
