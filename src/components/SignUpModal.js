@@ -76,11 +76,11 @@ export default function SignUpModal() {
 											   disabled={loading} onChange={handleChange}
 											   className='sign-up-modal__input'/>
 										<button type='submit' disabled={loading}
-												className='btn btn--no-icon sign-up-modal__submit'>Sign Up
+												className='btn btn--no-icon sign-up-modal__submit'>Submit
 										</button>
 
 										{error &&
-											<div className='error'>Error, please try again later.</div>
+											<div className='sign-up-modal__error'>Error, please try again later.</div>
 										}
 
 										<small className='sign-up-modal__disclaimer'>By entering your email you're consenting to

@@ -29,6 +29,7 @@ export default function Intro() {
 					<h1 className='intro__heading'>How I built Transform My Poker</h1>
 					<h2 className='intro__subheading'>*or how you can make more revenue online without wasting time or
 						burning cash</h2>
+					<p>To watch the full length video masterclass click below:</p>
 					<button onClick={toggleModal} className='btn'>Show Me The Video</button>
 				</div>
 			</Container>

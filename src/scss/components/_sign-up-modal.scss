@@ -39,6 +39,10 @@
 		padding: calc-rem(15px) calc-rem(20px);
 		width: 100%;
 
+		&::placeholder {
+			font-weight: 600;
+		}
+
 		&:focus {
 			outline: none;
 		}
@@ -47,12 +51,18 @@
 	&__disclaimer {
 		color: color('dove-grey');
 		display: block;
-		font-size: calc-rem(12px);
+		font-size: calc-rem(10px);
 		line-height: 1.5;
 	}
 
 	&__submit {
-		margin: 0 auto calc-rem(20px) 0;
+		margin: 0 auto calc-rem(20px) auto;
+	}
+
+	&__error {
+		color: color('crimson');
+		font-weight: 700;
+		margin-bottom: calc-rem(20px);
 	}
 
 	@include sm {
