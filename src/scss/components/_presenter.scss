@@ -5,6 +5,12 @@
 
 	&__img {
 		margin-bottom: calc-rem(20px);
-		max-width: calc-rem(800px);
+		max-width: 80%;
+	}
+
+	@include sm {
+		&__img {
+			max-width: calc-rem(700px);
+		}
 	}
 }

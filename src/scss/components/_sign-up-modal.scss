@@ -2,6 +2,7 @@
 .sign-up-modal {
 	@include flex-container(row, center, center);
 	background: rgba(0, 0, 0, 0.7);
+	display: none;
 	height: 100%;
 	left: 0;
 	padding: calc-rem(40px) 0;
@@ -61,5 +62,11 @@
 	}
 
 	@include md {
+	}
+}
+
+.modal-open {
+	.sign-up-modal {
+		display: block;
 	}
 }
