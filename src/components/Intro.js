@@ -5,9 +5,6 @@ import React, { useContext } from 'react'
 // Components
 import Container from './Container'
 
-// Video
-import Video from '../video/intro/feel-good-inc.mp4'
-
 // Context
 import SignUpModalContext from '../contexts/SignUpModal'
 
@@ -21,9 +18,9 @@ export default function Intro() {
 	return (
 		<section className='intro'>
 			<Container>
-				<video autoPlay muted loop className="intro__video">
-					<source src={Video} type="video/mp4"/>
-				</video>
+				<div className='intro__video-wrap'>
+					<iframe title='vimeo-player' src='https://player.vimeo.com/video/572651299' width='640' height='360' className='intro__video'></iframe>
+				</div>
 
 				<div className='intro__copy'>
 					<h1 className='intro__heading'>How I built Transform My Poker</h1>

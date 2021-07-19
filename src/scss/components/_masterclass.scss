@@ -15,8 +15,43 @@
 		margin-bottom: calc-rem(20px);
 	}
 
+	&__video-wrap {
+		height: 200px;
+		margin: calc-rem(20px) auto;
+		max-width: calc-rem(1100px);
+		position: relative;
+		width: 100%;
+	}
+
 	&__video {
-		margin: calc-rem(20px) 0;
-		max-width: calc-rem(900px);
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+
+	@include sm {
+		&__video-wrap {
+			height: 300px;
+		}
+	}
+
+	@include md {
+		&__video-wrap {
+			height: 400px;
+		}
+	}
+
+	@include lg {
+		&__video-wrap {
+			height: 500px;
+		}
+	}
+
+	@include xl {
+		&__video-wrap {
+			height: 600px;
+		}
 	}
 }
