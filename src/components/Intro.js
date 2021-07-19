@@ -1,6 +1,6 @@
 
 // Libraries
-import React from 'react'
+import React, { useContext } from 'react'
 
 // Components
 import Container from './Container'
@@ -8,9 +8,14 @@ import Container from './Container'
 // Video
 import Video from '../video/intro/feel-good-inc.mp4'
 
+// Context
+import SignUpModalContext from '../contexts/SignUpModal'
+
 export default function Intro() {
-	const openModal = () => {
-		alert()
+	const { toggle } = useContext(SignUpModalContext)
+
+	const toggleModal = () => {
+		toggle()
 	}
 
 	return (
@@ -24,7 +29,7 @@ export default function Intro() {
 					<h1 className='intro__heading'>How I built Transform My Poker</h1>
 					<h2 className='intro__subheading'>*or how you can make more revenue online without wasting time or
 						burning cash</h2>
-					<button onClick={openModal} className='btn'>Show Me The Video</button>
+					<button onClick={toggleModal} className='btn'>Show Me The Video</button>
 				</div>
 			</Container>
 		</section>

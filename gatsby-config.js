@@ -84,7 +84,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-mailchimp',
 			options: {
-				endpoint: 'https://pixelsmatter.us1.list-manage.com/subscribe/post?u=1c8a0263818b4f2cf543bb7ff&amp;id=056ec3c1fe',
+				endpoint: 'https://gmail.us6.list-manage.com/subscribe/post?u=f5f817cf7c525867a13f19b0d&amp;id=5f84b3d444',
 				timeout: 3500,
 			},
 		},

@@ -1,6 +1,12 @@
 
+// Libraries
+import React from 'react'
+
 // Styles
 import './src/scss/style.scss'
+
+// Context
+import { SignUpModalContextProvider } from './src/contexts/SignUpModal'
 
 // Leave calling card in console
 console.log(`
@@ -17,3 +23,10 @@ Like our code? Get in touch!
 hello@pixelsmatter.io                                                       
                                                        
 `)
+
+// Wrap app with context
+export const wrapRootElement = ({ element }) => (
+	<SignUpModalContextProvider>
+		{element}
+	</SignUpModalContextProvider>
+)
