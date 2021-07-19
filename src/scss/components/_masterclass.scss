@@ -3,10 +3,16 @@
 	background: color('torea-bay');
 	color: color('white');
 
-	&__heading {
+	&__heading,
+	&__subheading {
 		margin-left: auto;
 		margin-right: auto;
-		max-width: calc-rem(900px);
+		max-width: calc-rem(1000px);
+	}
+
+	&__subheading {
+		font-weight: 400;
+		margin-bottom: calc-rem(20px);
 	}
 
 	&__video {
