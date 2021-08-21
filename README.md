@@ -18,7 +18,7 @@ Landing pages for [transformmybusiness.co.uk](https://transformmybusiness.co.uk/
 
 ## Installation
 
-Run the following from the root directory:
+Run the following from the project root directory:
 
  1. `npm i`
  2. `gatsby develop` (Local) or `gatsby build && gatsby serve` (Production)
