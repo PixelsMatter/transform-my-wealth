@@ -2,7 +2,7 @@
 
 # Transform My Business
 
-Landing pages for [transformmybusiness.co.uk](https://transformmybusiness.co.uk/) which uses the [PixelsMatter Gatsby Starter](https://github.com/PixelsMatter/gatsby-starter).
+Landing pages for [transformmybusiness.co.uk](https://transformmybusiness.co.uk/) which use the [PixelsMatter Gatsby Starter](https://github.com/PixelsMatter/gatsby-starter).
 
 
 **Project Status:** On Hold
