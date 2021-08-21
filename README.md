@@ -29,5 +29,5 @@ Run the following from the project root directory:
 |Name|URL|
 |--|--|
 | Local | [http://localhost:8000](http://localhost:8000) |
-| Staging | N/A
+| Staging | N/A |
 | Production (Netlify) |  [ https://transformmybusiness.co.uk](https://app.netlify.com/sites/transform-my-business/overview)   | https://transformmybusiness.co.uk |
