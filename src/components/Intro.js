@@ -23,7 +23,7 @@ export default function Intro() {
 				</div>
 
 				<div className='intro__copy'>
-					<h1 className='intro__heading'>How I built Transform My Poker</h1>
+					<h1 className='intro__heading'>How I Built My Online Business</h1>
 					<h2 className='intro__subheading'>*or how you can make more revenue online without wasting time or
 						burning cash</h2>
 					<p>To watch the full length video masterclass click below:</p>
@@ -33,4 +33,3 @@ export default function Intro() {
 		</section>
 	)
 }
-

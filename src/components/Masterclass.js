@@ -8,7 +8,7 @@ import Container from './Container'
 const Masterclass = () => (
 	<section className='masterclass'>
 		<Container>
-			<h1 className='masterclass__heading'>How I built Transform My Poker</h1>
+			<h1 className='masterclass__heading'>How I Built My Online Business</h1>
 			<h2 className='masterclass__subheading'>*or how you can make more revenue online without wasting time or
 				burning cash</h2>
 
