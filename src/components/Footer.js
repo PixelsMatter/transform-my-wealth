@@ -8,7 +8,7 @@ import Container from './Container'
 const Footer = () => (
 	<footer className='footer'>
 		<Container fullWidth>
-			<p>Copyright &copy; 2021 - Transform My Business and Nick Wealthall - All Rights Reserved </p>
+			<p>Copyright &copy; 2021 - Transform My Wealth and Nick Wealthall - All Rights Reserved </p>
 		</Container>
 	</footer>
 )

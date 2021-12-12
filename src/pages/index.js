@@ -13,7 +13,7 @@ import SignUpModal from '../components/SignUpModal'
 
 const IndexPage = () => (
 	<Layout>
-		<SEO title='Transform My Business | Video Masterclass'/>
+		<SEO title='Transform My Wealth | Video Masterclass'/>
 		<Intro/>
 		<Benefits/>
 		<Presenter/>

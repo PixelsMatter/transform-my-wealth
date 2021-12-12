@@ -9,7 +9,7 @@ import Masterclass from '../components/Masterclass'
 
 const MasterclassPage = () => (
 	<Layout>
-		<SEO title='Transform My Business | Video Masterclass'/>
+		<SEO title='Transform My Wealth | Video Masterclass'/>
 		<Masterclass/>
 	</Layout>
 )

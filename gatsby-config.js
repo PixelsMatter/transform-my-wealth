@@ -1,25 +1,25 @@
 
 module.exports = {
 	siteMetadata: {
-		title: `Transform My Business`,
+		title: `Transform My Wealth`,
 		description: `Gatsby starter`,
-		siteUrl: `https://transformybusiness.co.uk`,
+		siteUrl: `https://transformmywealth.co.uk`,
 		humansTxt: `humans.txt`,
 		openGraph: {
 			type: `website`,
-			title: `Transform My Business`,
+			title: `Transform My Wealth`,
 			description: `How you can make more revenue online without wasting time or burning cash`,
-			siteName: `Transform My Business`,
-			url: `https://transformybusiness.co.uk`,
+			siteName: `Transform My Wealth`,
+			url: `https://transformmywealth.co.uk`,
 		},
 		twitterCard: {
 			card: `summary_large_image`,
-			title: `Transform My Business`,
+			title: `Transform My Wealth`,
 			description: `How you can make more revenue online without wasting time or burning cash`,
 			creator: '',
 			site: '',
-			domain: `transformybusiness.co.uk`,
-			url: `https://transformybusiness.co.uk`,
+			domain: `transformmywealth.co.uk`,
+			url: `https://transformmywealth.co.uk`,
 		},
 	},
 	plugins: [
@@ -38,7 +38,7 @@ module.exports = {
 		{
 			resolve: `gatsby-plugin-manifest`,
 			options: {
-				name: `Transform My Business`,
+				name: `Transform My Wealth`,
 				short_name: `TMB`,
 				start_url: `/`,
 				background_color: `#0E0417`,

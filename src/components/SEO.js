@@ -84,10 +84,10 @@ function SEO({ meta, title, description, lang, thumbnail, openGraph, twitterCard
 	const _schemaMarkup = schemaMarkup ? schemaMarkup : {
 		'@context': `https://schema.org`,
 		'@type': `Organization`,
-		name: `Transform My Business`,
+		name: `Transform My Wealth`,
 		alternateName: `TMB`,
 		description: `How you can make more revenue online without wasting time or burning cash`,
-		url: `https://transformmybusiness.co.uk`,
+		url: `https://transformmywealth.co.uk`,
 		logo: `${siteUrl}${_logo}`,
 	}
 
