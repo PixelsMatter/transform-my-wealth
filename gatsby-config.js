@@ -3,14 +3,14 @@ module.exports = {
 	siteMetadata: {
 		title: `Transform My Wealth`,
 		description: `Gatsby starter`,
-		siteUrl: `https://transformmywealth.co.uk`,
+		siteUrl: `https://transformmywealth.com`,
 		humansTxt: `humans.txt`,
 		openGraph: {
 			type: `website`,
 			title: `Transform My Wealth`,
 			description: `How you can make more revenue online without wasting time or burning cash`,
 			siteName: `Transform My Wealth`,
-			url: `https://transformmywealth.co.uk`,
+			url: `https://transformmywealth.com`,
 		},
 		twitterCard: {
 			card: `summary_large_image`,
@@ -19,7 +19,7 @@ module.exports = {
 			creator: '',
 			site: '',
 			domain: `transformmywealth.co.uk`,
-			url: `https://transformmywealth.co.uk`,
+			url: `https://transformmywealth.com`,
 		},
 	},
 	plugins: [

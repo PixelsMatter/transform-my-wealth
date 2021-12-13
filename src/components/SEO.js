@@ -87,7 +87,7 @@ function SEO({ meta, title, description, lang, thumbnail, openGraph, twitterCard
 		name: `Transform My Wealth`,
 		alternateName: `TMB`,
 		description: `How you can make more revenue online without wasting time or burning cash`,
-		url: `https://transformmywealth.co.uk`,
+		url: `https://transformmywealth.com`,
 		logo: `${siteUrl}${_logo}`,
 	}
 
