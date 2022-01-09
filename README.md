@@ -4,7 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/PixelsMatter/transform-my-wealth?color=%23560bad)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/PixelsMatter/transform-my-wealth/Lighthouse%20CI?color=%23560bad)
 
-Landing pages for [transformmywealth.co.uk](https://transformmywealth.com/) which use the [PixelsMatter Gatsby Starter](https://github.com/PixelsMatter/gatsby-starter).
+Landing pages for [transformmywealth.com](https://transformmywealth.com) which use the [PixelsMatter Gatsby Starter](https://github.com/PixelsMatter/gatsby-starter).
 
 
 **Project Status:** On Hold
@@ -30,4 +30,4 @@ Run the following from the project root directory:
 |--|--|
 | Local | [http://localhost:8000](http://localhost:8000) |
 | Staging | N/A |
-| Production (Netlify) |  [ https://transformmywealth.com](https://app.netlify.com/sites/transform-my-wealth/overview)   | https://transformmywealth.com |
+| Production (Netlify) |  [ https://transformmywealth.com](https://transformmywealth.com/) |
