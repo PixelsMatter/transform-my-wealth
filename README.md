@@ -7,7 +7,7 @@
 Landing pages for [transformmywealth.com](https://transformmywealth.com) which use the [PixelsMatter Gatsby Starter](https://github.com/PixelsMatter/gatsby-starter).
 
 
-**Project Status:** On Hold
+**Project Status:** Closed
 
 **Deployment:** [Netlify CI/CD](https://app.netlify.com/sites/transform-my-wealth/overview)
 
